@@ -118,3 +118,52 @@ mix-blend-mode: normal;
     font-weight: 700;
     font-size: 15px;
 }
+
+
+.pack-active{
+    background: #3F87F5;
+box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.3);
+border-radius: 26px;
+    padding:30px;
+    color: #fff;
+    top: -63px;
+}
+.pack-active h3{
+    color:#fff;
+}
+.pack-active p{
+    color:#fff 
+}
+.pack-active ul li{
+    color: #fff;
+}
+.pack-active .fas{
+    color: #fff;
+}
+.pack-active{
+    position: relative;
+}
+.pack-active::before { 
+    content: "Hot";
+    background-color: #FF4E4E;
+    border-radius: 20px;
+    color: #fff;
+    position: absolute;
+    padding: 10px 15px;
+    top: -20px;
+    right: 18px;
+    font-weight: 600;
+  }
+  
+
+  /* client-area */
+  .client-details{
+    padding: 25px 50px;
+  }
+  .client-details p{
+    line-height: 26px;
+    color: #6C6C6C;
+  }
+  .client-thum{
+    margin-bottom: 15px;
+  }
