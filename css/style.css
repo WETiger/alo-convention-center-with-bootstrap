@@ -13,7 +13,13 @@ body{
 a{
     text-decoration: none;
 }
-
+ul{
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    list-style: none;
+}
 
 /* header logo  */
 .logo-text{
@@ -55,4 +61,60 @@ a{
     background: #3F87F5;
     color: #fff;
     padding: 10px 24px;
+}
+
+
+/* ==========================our package================================ */
+.package-details{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.package-details h2{
+    font-weight: 700;
+    font-size: 36px;
+    font-family: 'Roboto';
+    margin-bottom: 20px;
+}
+
+.package-details h3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    color: 
+    #231D4F;
+}
+
+.package-details p{
+    font-weight: 400;
+font-size: 15px;
+margin: 15px 0;
+color: #848199;
+}
+
+.package .fas{
+    color: #5243C2;
+    margin-right: 10px;
+    font-size: 16px;
+}
+.package ul li{
+    font-weight: 400;
+font-size: 15px;
+line-height: 28px;
+color: #848199;
+}
+
+.choose-plan{
+    background: #FEF5FA;
+mix-blend-mode: normal;
+    /* opacity: 0.1; */
+    border-radius: 24px;
+    padding: 13px 61px;
+    margin-top: 24px;
+}
+.choose-plan a{
+    color: #3F87F5;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 15px;
 }
