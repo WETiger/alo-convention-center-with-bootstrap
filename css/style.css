@@ -1,0 +1,58 @@
+/* google font family  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:ital,wght@0,500;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap');
+
+
+/* common css  */
+body{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 300;
+}
+a{
+    text-decoration: none;
+}
+
+
+/* header logo  */
+.logo-text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    margin: 0;
+}
+
+/* slide carousel  */
+.slide-title{
+    font-weight: 600;
+    font-size: 46px;
+    text-align: center;
+}
+.carousel-item img{
+    height: 585px;
+}
+.btn-slide{
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: 0;
+    padding:10px 25px;
+    color: #3F87F5;
+    margin-bottom: 30px;
+}
+
+
+/* ==================every-moment-area===================== */
+.every-moment-area{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.every-thum{
+    width: 100%;
+}
+.btn-every a{
+    background: #3F87F5;
+    color: #fff;
+    padding: 10px 24px;
+}
