@@ -156,7 +156,16 @@ border-radius: 26px;
   }
   
 
-  /* client-area */
+  /* happy-clients-area */
+  .happy-clients-area{
+    margin-bottom: 100px;
+  }
+  .happy-clients-title ,.frequently-title{
+    padding-bottom: 100px;
+    font-weight: 600;
+    font-size: 38px;
+    color: #0A0826;
+  }
   .client-details{
     padding: 25px 50px;
   }
@@ -167,3 +176,57 @@ border-radius: 26px;
   .client-thum{
     margin-bottom: 15px;
   }
+  .client-details h4 ,.client-details h5{
+    font-weight: 600;
+    font-size: 14px;
+    color: #0C1920;
+  }
+
+  /* frequently-asked-area */
+
+  .frequently-asked-area{
+    margin-bottom: 150px;
+  }
+
+.frequently-thum img{
+    width: 100%;
+}
+
+
+/* brand-logo footer area */
+.footer-area{
+    background: #0B0D17;
+    color: #fff;
+    padding: 60px 0;
+}
+.brand-logo{}
+.brand-logo img{
+    Width:135px;
+    Height:40px;
+}
+
+
+.copy{
+    color: #D9DBE1;
+}
+.brand-title{
+    font-weight: 500;
+font-size: 18px;
+color: #D9DBE1;
+}
+.brand-link a{
+    display: block;
+    margin: 16px 0;
+}
+
+.brand-link img{
+    border: 1px solid #D9DBE1;
+    border-radius: 8px;
+}
+
+
+
+
+
+
+  
